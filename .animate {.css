@@ -1,0 +1,14 @@
+.animate {
+	width: 100px;
+	height: 100px;
+	background-color: #f00;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: transform 0.3s ease-out;
+}
+
+.animate:hover {
+	transform: translateX(-50%) translateY(100px);
+}
